@@ -1,0 +1,9 @@
+// Palette
+$palette: (
+    'flamingo': #f05825,
+    'crimson': #d41559
+);
+
+@function palette($key) {
+  @return map-get($palette, $key);
+}

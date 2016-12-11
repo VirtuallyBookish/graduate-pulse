@@ -1,6 +1,8 @@
 
     <footer>
-        OMG IT'S THE FOOTER
+        <div class="container-fluid">
+            <h3>Footer Content</h3>
+        </div>
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

@@ -1,0 +1,93 @@
+// GENERAL
+.big-post {
+    margin-top: 5px;
+
+    &-title {
+        color: white;
+        margin: 0;
+        font-weight: bold;
+        font-size: 4rem;
+        text-shadow: 3px 3px 0px rgba(150, 70, 70, 0.75);
+
+        a {
+            color: white;
+
+            &:hover, &:focus {
+                color: #fff9c8;
+                text-decoration: none;
+            }
+        }
+    }
+
+    &-meta {
+        color: white;
+        font-size: 2rem;
+        font-weight: 200;
+
+        a {
+            color: white;
+        }
+    }
+
+    &-content {
+        color: white;
+    }
+}
+
+// FEATURE POST
+.feature-col {
+    padding: 0 5px;
+}
+
+.feature-post {
+    background-size: cover;
+    background-position: center;
+    height: 335px;
+    position: relative;
+
+    .feature-headings {
+        position: absolute;
+        bottom: 0;
+        left: 10px;
+        right: 10px;
+    }
+}
+
+// HIGHLIGHT POST
+.highlight-col {
+    padding: 0 5px;
+}
+
+.highlight-post {
+    background-size: cover;
+    background-position: center;
+    height: 165px;
+    position: relative;
+
+    .highlight-headings {
+        position: absolute;
+        bottom: 0;
+        left: 10px;
+        right: 10px;
+    }
+}
+
+// NORMAL POST
+.normal-blog-post {
+    margin-top: 10px;
+
+    &-meta {
+        border-bottom: 1px solid #ababab;
+
+        p {
+            margin: 0;
+        }
+    }
+
+    &-image {
+        margin: 10px 0;
+        padding-bottom: 50%;
+        background-size: cover;
+        background-position: center;
+    }
+}

@@ -1,0 +1,21 @@
+// Body
+body, html {
+    background-color: #F7F7F7;
+}
+// Fonts
+
+// Variables
+@import "variables";
+@import "mixins";
+
+// Global
+
+// Template Parts
+@import "template-parts/post-listing";
+
+// Components
+@import "components/header";
+@import "components/footer";
+@import "components/sidebar";
+
+// Pages
