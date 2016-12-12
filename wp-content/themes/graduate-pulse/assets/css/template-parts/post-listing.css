@@ -1,0 +1,63 @@
+.big-post {
+  margin-top: 5px; }
+  .big-post-title {
+    color: white;
+    margin: 0;
+    font-weight: bold;
+    font-size: 3rem;
+    text-shadow: 3px 3px 0px rgba(150, 70, 70, 0.75); }
+    .big-post-title a {
+      color: white; }
+      .big-post-title a:hover, .big-post-title a:focus {
+        color: #fff9c8;
+        text-decoration: none; }
+  .big-post-meta {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 200; }
+    .big-post-meta a {
+      color: white; }
+  .big-post-content {
+    color: white; }
+
+.feature-col {
+  padding: 0 5px; }
+
+.feature-post {
+  background-size: cover;
+  background-position: center;
+  height: 335px;
+  position: relative; }
+  .feature-post .feature-headings {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    right: 10px; }
+
+.highlight-col {
+  padding: 0 5px; }
+
+.highlight-post {
+  background-size: cover;
+  background-position: center;
+  height: 165px;
+  position: relative; }
+  .highlight-post .highlight-headings {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    right: 10px; }
+
+.normal-blog-post {
+  margin-top: 10px; }
+  .normal-blog-post-meta {
+    border-bottom: 1px solid #ababab; }
+    .normal-blog-post-meta p {
+      margin: 0; }
+  .normal-blog-post-image {
+    margin: 10px 0;
+    padding-bottom: 50%;
+    background-size: cover;
+    background-position: center; }
+
+/*# sourceMappingURL=post-listing.css.map */

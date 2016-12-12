@@ -1,6 +1,7 @@
 // Body
 body, html {
     background-color: #F7F7F7;
+    font-size: 18px;
 }
 // Fonts
 
@@ -9,9 +10,11 @@ body, html {
 @import "mixins";
 
 // Global
+@import "wp-overrides";
 
 // Template Parts
 @import "template-parts/post-listing";
+@import "template-parts/single-post";
 
 // Components
 @import "components/header";

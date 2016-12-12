@@ -1,5 +1,15 @@
 body, html {
-  background-color: #F7F7F7; }
+  background-color: #F7F7F7;
+  font-size: 18px; }
+
+.wp-image-50 {
+  margin: 10px; }
+
+.wp-image-50.alignleft {
+  float: left; }
+
+.wp-image-50.alignright {
+  float: right; }
 
 .big-post {
   margin-top: 5px; }
@@ -7,7 +17,7 @@ body, html {
     color: white;
     margin: 0;
     font-weight: bold;
-    font-size: 4rem;
+    font-size: 3rem;
     text-shadow: 3px 3px 0px rgba(150, 70, 70, 0.75); }
     .big-post-title a {
       color: white; }
@@ -16,7 +26,7 @@ body, html {
         text-decoration: none; }
   .big-post-meta {
     color: white;
-    font-size: 2rem;
+    font-size: 1.2rem;
     font-weight: 200; }
     .big-post-meta a {
       color: white; }
@@ -62,6 +72,46 @@ body, html {
     padding-bottom: 50%;
     background-size: cover;
     background-position: center; }
+
+.single-feature-post-image {
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+  text-align: center; }
+
+.single-feature-title {
+  color: white;
+  margin: 0 0 20px 0;
+  font-weight: bold;
+  font-size: 3rem;
+  text-shadow: 3px 3px 0px rgba(150, 70, 70, 0.75); }
+  .single-feature-title a {
+    color: white; }
+    .single-feature-title a:hover, .single-feature-title a:focus {
+      color: #fff9c8;
+      text-decoration: none; }
+.single-feature-meta-wrapper {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white; }
+  .single-feature-meta-wrapper p {
+    margin: 0;
+    padding: 2px; }
+  .single-feature-meta-wrapper a {
+    color: #f05825; }
+    .single-feature-meta-wrapper a:hover, .single-feature-meta-wrapper a:focus {
+      color: #bc390d;
+      text-decoration: none; }
+.single-feature-content {
+  margin-top: 10px; }
+
+.feature-headings-col {
+  height: 50vh;
+  position: relative; }
+  .feature-headings-col .feature-headings {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0; }
 
 .navbar, .navbar-default {
   height: 60px;
