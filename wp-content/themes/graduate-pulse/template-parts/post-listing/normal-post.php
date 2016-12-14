@@ -10,8 +10,8 @@
 		</div>
 	</div>
 	<div class="col-xs-6">
-		<h4><?php the_title(); ?></h4>
-		<a href="#"><?php the_author(); ?></a>
+		<h4><a href='<?php the_permalink(); ?>'><?php the_title(); ?></a></h4>
+		<p>By <a href="#"><?php the_author(); ?></a></p>
 	</div>
 </div>
 	<!-- <?php //the_content(); ?> -->

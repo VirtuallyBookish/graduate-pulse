@@ -52,6 +52,8 @@
   margin-top: 10px; }
   .normal-blog-post-meta {
     border-bottom: 1px solid #ababab; }
+    .normal-blog-post-meta a {
+      color: palette("flamingo"); }
     .normal-blog-post-meta p {
       margin: 0; }
   .normal-blog-post-image {
@@ -59,5 +61,14 @@
     padding-bottom: 50%;
     background-size: cover;
     background-position: center; }
+  .normal-blog-post h4 a {
+    color: black; }
+    .normal-blog-post h4 a:hover, .normal-blog-post h4 a:focus {
+      text-decoration: none; }
+  .normal-blog-post p {
+    color: black;
+    font-weight: light; }
+  .normal-blog-post p a {
+    color: palette("flamingo"); }
 
 /*# sourceMappingURL=post-listing.css.map */

@@ -65,6 +65,8 @@ body, html {
   margin-top: 10px; }
   .normal-blog-post-meta {
     border-bottom: 1px solid #ababab; }
+    .normal-blog-post-meta a {
+      color: #f05825; }
     .normal-blog-post-meta p {
       margin: 0; }
   .normal-blog-post-image {
@@ -72,6 +74,15 @@ body, html {
     padding-bottom: 50%;
     background-size: cover;
     background-position: center; }
+  .normal-blog-post h4 a {
+    color: black; }
+    .normal-blog-post h4 a:hover, .normal-blog-post h4 a:focus {
+      text-decoration: none; }
+  .normal-blog-post p {
+    color: black;
+    font-weight: light; }
+  .normal-blog-post p a {
+    color: #f05825; }
 
 .single-feature-post-image {
   height: 50vh;

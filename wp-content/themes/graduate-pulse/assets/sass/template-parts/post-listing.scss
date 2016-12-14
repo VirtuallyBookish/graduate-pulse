@@ -79,6 +79,10 @@
     &-meta {
         border-bottom: 1px solid #ababab;
 
+        a {
+            color: palette('flamingo');
+        }
+
         p {
             margin: 0;
         }
@@ -89,5 +93,22 @@
         padding-bottom: 50%;
         background-size: cover;
         background-position: center;
+    }
+
+    h4 a {
+        color: black;
+
+        &:hover, &:focus {
+            text-decoration: none;
+        }
+    }
+
+    p {
+        color: black;
+        font-weight: light;
+    }
+
+    p a {
+        color: palette('flamingo');
     }
 }
